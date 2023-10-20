@@ -1,13 +1,9 @@
-﻿<script setup lang="ts">
+<script lang="ts" setup>
 
 </script>
 
 <template>
   <div class="w-screen flex flex-col p-4 items-center">
-    <slot />
+    <slot/>
   </div>
 </template>
-
-<style scoped>
-
-</style>

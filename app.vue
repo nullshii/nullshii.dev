@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import Header from "~/components/Header.vue";
 </script>
 
@@ -7,13 +7,12 @@ import Header from "~/components/Header.vue";
   <NuxtPage/>
 </template>
 
-
 <style>
-  html.dark {
-    color-scheme: dark;
-  }
-  
-  body {
-    @apply bg-background text-text font-sans;
-  }
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-background text-text font-sans;
+}
 </style>

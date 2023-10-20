@@ -1,10 +1,10 @@
-﻿<script setup lang="ts">
-const { locale } = useI18n()
+<script lang="ts" setup>
+const {locale} = useI18n();
 
 useSeoMeta({
-  title: 'nullshii.dev - About',
-  description: 'About creator [nullshii]',
-})
+  title: "nullshii.dev - About",
+  description: "About creator [nullshii]"
+});
 
 useHead({
   htmlAttrs: {
@@ -12,12 +12,12 @@ useHead({
   },
   link: [
     {
-      rel: 'icon',
-      type: 'image/png',
-      href: '/favicon.png'
+      rel: "icon",
+      type: "image/png",
+      href: "/favicon.png"
     }
   ]
-})
+});
 </script>
 
 <template>

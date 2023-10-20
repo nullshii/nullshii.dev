@@ -2,4 +2,4 @@
     theme: {
         dark: true,
     }
-})
+});
