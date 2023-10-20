@@ -1,0 +1,14 @@
+﻿{
+  "title": "nullshii.dev",
+  "theme": {
+    "dark": "Тёмная тема",
+    "light": "Светлая тема"
+  },
+  "header": {
+    "route": {
+      "home": "Главная",
+      "about": "О создателе"
+    },
+    "language": "Язык"
+  }
+}

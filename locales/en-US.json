@@ -1,0 +1,14 @@
+﻿{
+  "title": "nullshii.dev",
+  "theme": {
+    "dark": "Dark theme",
+    "light": "Light theme"
+  },
+  "header": {
+    "route": {
+      "home": "Home",
+      "about": "About"
+    },
+    "language": "Language"
+  }
+}

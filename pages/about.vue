@@ -2,8 +2,8 @@
 const { locale } = useI18n()
 
 useSeoMeta({
-  title: 'nullshii.dev - nullshii\'s house',
-  description: 'Personal page of nullshii',
+  title: 'nullshii.dev - About',
+  description: 'About creator [nullshii]',
 })
 
 useHead({
@@ -21,5 +21,5 @@ useHead({
 </script>
 
 <template>
-  
+
 </template>
