@@ -2,7 +2,15 @@
 export default defineNuxtConfig({
   ssr: false,
   $development: {
-    devtools: { enabled: true }
+    devtools: { 
+        enabled: true,
+    },
+  }, 
+  app: {
+    pageTransition: { 
+        name: 'page',
+        mode: 'out-in',
+    },
   },
   css: [
       '~/assets/css/Fonts.css',
@@ -31,7 +39,7 @@ export default defineNuxtConfig({
               iso: 'ru-RU',
               code: 'ru-RU',
               file: 'ru-RU.json'
-          }
-      ]
-  }
-})
+          },
+      ],
+  },
+});
