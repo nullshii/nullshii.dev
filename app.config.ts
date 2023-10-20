@@ -1,5 +1,5 @@
-﻿export default defineAppConfig({
-    theme: {
-        dark: true,
-    }
+export default defineAppConfig({
+	theme: {
+		dark: true,
+	},
 });
