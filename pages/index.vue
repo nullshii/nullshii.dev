@@ -19,7 +19,3 @@
 		],
 	});
 </script>
-
-<template>
-	<div />
-</template>

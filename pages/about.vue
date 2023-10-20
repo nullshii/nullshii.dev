@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script lang='ts' setup>
 	const { locale } = useI18n();
 
 	useSeoMeta({
@@ -19,5 +19,3 @@
 		],
 	});
 </script>
-
-<template></template>
