@@ -18,6 +18,7 @@ export default defineNuxtConfig({
 		'@nuxtjs/i18n',
 		'@nuxt/image',
 		'@vueuse/nuxt',
+		'nuxt-icon'
 	],
 	i18n: {
 		lazy: true,

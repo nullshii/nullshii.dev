@@ -1,13 +1,57 @@
 ﻿{
-  "theme": {
-    "dark": "Тёмная тема",
-    "light": "Светлая тема"
-  },
   "header": {
+    "fps": "К/c",
+    "language": "Язык",
+    "theme": "Тема",
     "route": {
-      "home": "Главная",
-      "about": "О создателе"
-    },
-    "language": "Язык"
+      "projects": "Проекты",
+      "about": "Кто я?"
+    }
+  },
+  "projects": {
+    "header": "Проекты",
+    "projects": [
+      {
+        "header": "Avoid AFK",
+        "description": "Простое кроссплатформенное приложение с графическим интерфейсом, позволяющее избежать афк в таких играх, как valorant.",
+        "link": "https://github.com/nullshii/AvoidAfk"
+      },
+      {
+        "header": "Blender library",
+        "description": "Моя коллекция ассетов для блендера.",
+        "link": "https://github.com/nullshii/blender-library"
+      },
+      {
+        "header": "Bullshit",
+        "description": "Плагин для papermc, который дает случайные эффекты при нанесении урона.",
+        "link": "https://github.com/nullshii/BullShit"
+      },
+      {
+        "header": "DayZ server configurator",
+        "description": "Simple cross-platform gui app to configure DayZ Server with mods in few clicks.",
+        "link": "https://github.com/nullshii/DayZ-Server-Configurator"
+      },
+      {
+        "header": "Discordus",
+        "description": "Простое кроссплатформенное приложение с графическим интерфейсом для создания кастомного статуса Discord.",
+        "link": "https://github.com/nullshii/Discordus"
+      },
+      {
+        "header": "Our guardian bot",
+        "description": "Бот Discord, написанный на C# с использованием Discord.Net для другого моего сервера.",
+        "link": "https://github.com/nullshii/OurGuardianBot"
+      },
+      {
+        "header": "VRChat osc translator",
+        "description": "Переводчик в реальном времени с использованием vosk и argos t ranslate для VRChat.",
+        "link": "https://github.com/nullshii/vrc-osc-translator"
+      }
+    ]
+  },
+  "about": {
+    "about-me": {
+      "header": "Обо мне",
+      "description": "Здрасте! Я Рэй (также известен как nullshii). Мне 20."
+    }
   }
 }

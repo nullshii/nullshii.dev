@@ -1,0 +1,3 @@
+.iconButton {
+    @apply rounded-xl bg-background text-text text-xl flex flex-row items-center gap-2 p-2 select-none cursor-pointer;
+}

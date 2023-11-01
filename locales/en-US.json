@@ -1,13 +1,57 @@
 ﻿{
-  "theme": {
-    "dark": "Dark theme",
-    "light": "Light theme"
-  },
   "header": {
+    "fps": "FPS",
+    "language": "Language",
+    "theme": "Theme",
     "route": {
-      "home": "Home",
-      "about": "About"
-    },
-    "language": "Language"
+      "projects": "Projects",
+      "about": "About me"
+    }
+  },
+  "projects": {
+    "header": "Projects",
+    "projects": [
+      {
+        "header": "Avoid afk",
+        "description": "Simple cross-platform gui app to avoid afk in games like Valorant.",
+        "link": "https://github.com/nullshii/AvoidAfk"
+      },
+      {
+        "header": "Blender library",
+        "description": "My collection of blender assets.",
+        "link": "https://github.com/nullshii/blender-library"
+      },
+      {
+        "header": "Bullshit",
+        "description": "Plugin for papermc that gives you random effects on damage.",
+        "link": "https://github.com/nullshii/BullShit"
+      },
+      {
+        "header": "DayZ server configurator",
+        "description": "Simple cross-platform gui app to configure DayZ Server with mods in few clicks.",
+        "link": "https://github.com/nullshii/DayZ-Server-Configurator"
+      },
+      {
+        "header": "Discordus",
+        "description": "Simple cross-platform gui app to set custom discord status.",
+        "link": "https://github.com/nullshii/Discordus"
+      },
+      {
+        "header": "Our guardian bot",
+        "description": "Discord bot written in C# using Discord.Net for my other server.",
+        "link": "https://github.com/nullshii/OurGuardianBot"
+      },
+      {
+        "header": "VRChat osc translator",
+        "description": "Realtime translator using vosk and argos translate for VRChat.",
+        "link": "https://github.com/nullshii/vrc-osc-translator"
+      }
+    ]
+  },
+  "about": {
+    "about-me": {
+      "header": "About me",
+      "description": "Hi there! I'm Ray (also known as nullshii). I'm 20."
+    }
   }
 }

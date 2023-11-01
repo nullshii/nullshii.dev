@@ -1,4 +1,6 @@
 <script lang='ts' setup>
+	import ('~/assets/css/Header.css');
+
 	import { useDark, useToggle } from '@vueuse/core';
 
 	const isDark = useDark();
@@ -6,7 +8,13 @@
 </script>
 
 <template>
-	<button @click='toggleDark()'>
-		{{ isDark ? $t('theme.dark') : $t('theme.light') }}
-	</button>
+	<div @click='toggleDark()'
+			 class='iconButton'>
+		<button>
+			<lazy-icon name='ion:invert-mode' size='1.5rem' class='icon' />
+		</button>
+		<p>
+			{{ $t('header.theme') }}
+		</p>
+	</div>
 </template>

@@ -20,3 +20,7 @@
         --accent: #818381;
     }
 }
+
+.   icon {
+    @apply text-accent group-hover:text-text hover:text-text transition-all duration-200;
+}
