@@ -1,0 +1,7 @@
+.header-1 {
+    @apply text-xl;
+}
+
+.disclaimer-container {
+    @apply border-2 border-accent text-text p-2 rounded-xl self-center;
+}

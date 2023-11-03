@@ -4,33 +4,22 @@
 	const { locale, locales } = useI18n();
 	const switchLocalePath = useSwitchLocalePath();
 
-	const isModalOpen = ref(false);
+	const selectedLanguage = ref(locale.value);
+
+	watch(selectedLanguage, () => {
+		navigateTo(switchLocalePath(selectedLanguage.value));
+	});
 </script>
 
 <template>
 	<div>
-		<div @click='isModalOpen = true'
-				 class='iconButton'>
-			<button>
-				<lazy-icon name='ion:language' size='1.5rem' class='icon' />
-			</button>
-			<p>
-				{{ $t('header.language') }}
-			</p>
-		</div>
-
-		<popup v-if='isModalOpen' @close='isModalOpen = false'>
-			<div class='flex flex-col gap-10 place-items-center'>
-				<div v-for='l in locales'>
-					<NuxtLink
-						class='text-xl bg-secondary hover:bg-background p-4 rounded-xl transition-all duration-200'
-						:class="{ 'text-accent': l.code !== locale, '!bg-background': l.code === locale }"
-						:to='switchLocalePath(l.code)'
-						@click='isModalOpen = false'>
-						{{ l.name }}
-					</NuxtLink>
-				</div>
-			</div>
-		</popup>
+		<select v-model='selectedLanguage'
+						class='rounded-xl bg-background text-text text-xl gap-2 p-2 appearance-none text-center select-none outline-none'>
+			<option v-for='l in locales'
+							:value='l.code'
+							class='focus:bg-accent bg-background'>
+				{{ l.name }}
+			</option>
+		</select>
 	</div>
 </template>

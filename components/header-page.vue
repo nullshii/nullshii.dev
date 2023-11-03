@@ -15,7 +15,7 @@
 
 	watch(() => currentRoute.fullPath, _ => {
 		if (!currentRoute.name) return;
-		isCurrent.value = currentRoute.name.toString().split('___')[0] === props.routeKey;
+		isCurrent.value = currentRoute.name.toString().startsWith(props.routeKey as string);
 	}, { deep: true, immediate: true });
 </script>
 

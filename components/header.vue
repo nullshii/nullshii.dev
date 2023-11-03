@@ -2,7 +2,7 @@
 	import { breakpointsTailwind, useBreakpoints } from '@vueuse/core';
 
 	const breakPoints = useBreakpoints(breakpointsTailwind);
-	const isDesktop = breakPoints.greater('lg');
+	const isDesktop = breakPoints.greater('xl');
 
 	const hamburgerEnabled = ref(false);
 </script>
@@ -19,6 +19,10 @@
 											 route-key='index'
 											 title-key='header.route.projects'
 											 icon-key='ion:file-tray-full' />
+					<header-page route='/blogs'
+											 route-key='blogs'
+											 title-key='header.route.blogs'
+											 icon-key='ion:newspaper' />
 					<header-page route='/about'
 											 route-key='about'
 											 title-key='header.route.about'

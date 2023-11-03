@@ -5,6 +5,7 @@
     "theme": "Тема",
     "route": {
       "projects": "Проекты",
+      "blogs": "Блог",
       "about": "Кто я?"
     }
   },
@@ -47,6 +48,15 @@
         "link": "https://github.com/nullshii/vrc-osc-translator"
       }
     ]
+  },
+  "blogs": {
+    "back": "Вернуться назад",
+    "github-ssh-config": {
+      "header": "Настройка SSH для логина в Github",
+      "disclaimer": {
+        "os": "Имейте в виду, что эти инструкции предназначены для GNU/Linux и Windows 10+"
+      }
+    }
   },
   "about": {
     "about-me": {
