@@ -8,16 +8,16 @@
 	<div class='w-fill flex flex-col gap-2 items-center'>
 		<center-container class='gap-4 !items-start'>
 			<h1 class='header-1'>
-				{{ $t('blogs.github-ssh-config.header') }}
+				{{ $t('blog.github-ssh-config.header') }}
 			</h1>
 			<div>
-				{{ $t('blogs.github-ssh-config.description') }}
+				{{ $t('blog.github-ssh-config.description') }}
 			</div>
 			<div class='disclaimer-container'>
-				{{ $t('blogs.github-ssh-config.disclaimer.os') }}
+				{{ $t('blog.github-ssh-config.disclaimer.os') }}
 			</div>
 		</center-container>
-		<NuxtLink :to="localePath('/blogs')"
+		<NuxtLink :to="localePath('/blog')"
 							class='text-blue-500 text-xl'>
 			{{ $t('blogs.back') }}
 		</NuxtLink>

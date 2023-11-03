@@ -13,10 +13,10 @@
 	<center-container class='gap-4 !items-start border-0'>
 		<NuxtLink :to='localePath(route as RawLocation)'
 							class='text-xl'>
-			{{ $t(`blogs.${localeKey}.header`) }}
+			{{ $t(`blog.${localeKey}.header`) }}
 		</NuxtLink>
 		<div class='bg-secondary p-2 rounded'>
-			{{ $t(`blogs.${localeKey}.description`) }}
+			{{ $t(`blog.${localeKey}.description`) }}
 		</div>
 	</center-container>
 </template>
