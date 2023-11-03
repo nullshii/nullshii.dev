@@ -7,6 +7,8 @@ export default defineNuxtConfig({
 		},
 	},
 	app: {
+		baseURL: '/nullshii.dev/',
+		buildAssetsDir: 'assets',
 		pageTransition: {
 			name: 'page',
 			mode: 'out-in',
