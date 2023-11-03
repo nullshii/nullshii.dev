@@ -10,7 +10,7 @@
 									 icon-key='ion:file-tray-full' />
 			<header-page route='/blog'
 									 route-key='blog'
-									 title-key='header.route.blogs'
+									 title-key='header.route.blog'
 									 icon-key='ion:newspaper' />
 			<header-page route='/about/'
 									 route-key='about'
