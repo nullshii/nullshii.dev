@@ -52,11 +52,23 @@
   "blog": {
     "back": "Go back",
     "read-more": "Read more...",
+    "note": "Note",
+    "warning": "Warning",
     "github-ssh-config": {
       "header": "Setting up SSH for Github login",
       "description": "SSH login is a crucial and commonly encountered theme in the world of software development and version control. It revolves around the process of configuring SSH (Secure Shell) keys to establish a secure and convenient method for accessing your GitHub account and repositories.\nWith SSH keys, developers can authenticate themselves to GitHub without relying on passwords, making the login process more secure and efficient. This theme encompasses various key aspects, including generating SSH keys, adding them to your GitHub account, and configuring your local development environment to use SSH for authentication.",
       "create-necessary-files": "First, let's create the files and directories necessary for SSH on the file system.",
-      "disclaimer": {
+      "folder": {
+        "base": "Base SSH folder",
+        "keys": "Public and private keys folder"
+      },
+      "file": {
+        "config": "Config file"
+      },
+      "note": {
+        "home-folder-location": "Home folder is different in OS.\nIn Windows: C:\\Users\\YOUR_USERNAME\\\nIn Linux or MacOS:   /home/YOUR_USERNAME/"
+      },
+      "warning": {
         "os": "Keep in mind that those instructions are for GNU/Linux and Windows 10+"
       }
     }

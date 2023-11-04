@@ -5,3 +5,11 @@
 .disclaimer-container {
     @apply border-2 border-red-400 text-text p-2 rounded-xl self-center;
 }
+
+.note-container {
+    @apply bg-secondary text-text p-2 rounded-xl flex flex-col;
+}
+
+.note {
+    @apply bg-background text-text pl-2 pr-2 rounded self-start;
+}
