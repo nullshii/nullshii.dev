@@ -1,7 +1,5 @@
 <script setup lang='ts'>
 	import '~/assets/css/blogs.css';
-
-	const localePath = useLocalePath();
 </script>
 
 <template>
@@ -10,16 +8,21 @@
 			<h1 class='header-1'>
 				{{ $t('blog.github-ssh-config.header') }}
 			</h1>
-			<div>
-				{{ $t('blog.github-ssh-config.description') }}
+			<div class='flex flex-col gap-6'>
+				<p v-for="(item, index) in $t('blog.github-ssh-config.description').split('\n')"
+					 :key='index'>
+					{{ item }}
+				</p>
 			</div>
 			<div class='disclaimer-container'>
 				{{ $t('blog.github-ssh-config.disclaimer.os') }}
 			</div>
+			<ol>
+				<li>
+					{{ $t('blog.github-ssh-config.create-necessary-files') }}
+				</li>
+			</ol>
 		</center-container>
-		<NuxtLink :to="localePath('/blog')"
-							class='text-blue-500 text-xl'>
-			{{ $t('blogs.back') }}
-		</NuxtLink>
+		<blog-back-to-index />
 	</div>
 </template>

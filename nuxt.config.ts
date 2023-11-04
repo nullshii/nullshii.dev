@@ -1,14 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	ssr: false,
 	$development: {
 		devtools: {
 			enabled: true,
 		},
 	},
 	app: {
-		baseURL: '/nullshii.dev/',
-		buildAssetsDir: 'assets',
 		pageTransition: {
 			name: 'page',
 			mode: 'out-in',

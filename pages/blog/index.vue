@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-	import BlogCardPreview from '~/components/blog-card-preview.vue';
+	import BlogCardPreview from '~/components/blog/card-preview.vue';
 
 	const { locale } = useI18n();
 
